@@ -9,23 +9,9 @@ import Foundation
 import Publish
 import Ink
 
-/// Example:
-///
-/// ```style
-/// table {
-///     table-layout: fixed !important;
-/// }
-/// ```
-///
-/// Will get converted to
-///
-/// <link rel="stylesheet" href="data:text/css,table%20%7B%0A%20%20%20%20table%2Dlayout%3A%20fixed%20%21important%3B%0A%7D%0A" />
-///
-///
-
 public extension Plugin {
-    static func styleBlocks() -> Self {
-        Plugin(name: "Stlye blocks") { context in
+    static func styleCodeBlocks() -> Self {
+        Plugin(name: "Stlye code blocks") { context in
             context.markdownParser.addModifier(.styleCodeBlocks)
         }
     }
