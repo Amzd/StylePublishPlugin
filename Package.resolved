@@ -39,7 +39,7 @@
       },
       {
         "package": "Publish",
-        "repositoryURL": "https://github.com/johnsundell/publish.git",
+        "repositoryURL": "https://github.com/JohnSundell/Publish",
         "state": {
           "branch": null,
           "revision": "e77aab786992350ea92333737fdb3d7cad3ca8fc",
